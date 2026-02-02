@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cradleman.com/sitemap.xml
+
