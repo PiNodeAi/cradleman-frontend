@@ -10,7 +10,7 @@ import { clients, testimonials, caseStudies } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Clients",
   description:
-    "Cradleman supports commercial buildings and facilities with facade access systems and suspended platform solutions. Explore client segments, testimonials, and project highlights.",
+    "Cradleman serves reputed clients across construction, real estate, and hospitality with facade access and cleaning systems.",
 };
 
 export default function ClientsPage() {
@@ -25,9 +25,9 @@ export default function ClientsPage() {
               Clients We Support
             </h1>
             <p className="mx-auto max-w-3xl text-lg text-gray-600 dark:text-gray-300">
-              From commercial towers to industrial campuses—Cradleman helps teams
-              keep building exteriors clean, safe, and maintainable with
-              engineered access solutions.
+              We are proud to serve clients such as Larsen & Toubro, Sheth
+              Developers, and InterContinental Hotel The Lalit, along with
+              facility teams across India.
             </p>
           </div>
         </div>

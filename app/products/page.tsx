@@ -25,9 +25,8 @@ export default function ProductsPage() {
               Products
             </h1>
             <p className="mx-auto max-w-3xl text-lg text-gray-600 dark:text-gray-300">
-              Designed for safe access at height—engineered solutions that help
-              facility and project teams maintain building exteriors with
-              repeatable, measurable outcomes.
+              Engineered for safe access at height—solutions that help teams
+              maintain building exteriors with reliable, repeatable outcomes.
             </p>
           </div>
         </div>

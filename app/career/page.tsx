@@ -10,7 +10,7 @@ import { jobOpenings, companyName, contactInfo } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Career",
   description:
-    "Explore careers at Cradleman. Join a team focused on safety, engineering excellence, and reliable building maintenance access solutions.",
+    "Explore careers at Cradleman. Join a team trained in facade access and cleaning systems with a strong focus on safety.",
 };
 
 export default function CareerPage() {
@@ -28,9 +28,10 @@ export default function CareerPage() {
               Careers at {companyName}
             </h1>
             <p className="mx-auto max-w-3xl text-lg text-gray-600 dark:text-gray-300">
-              We build and maintain systems that help teams work safely at
-              height. If you care about quality, documentation, and dependable
-              delivery, we’d love to hear from you.
+              Our teams work on facade access and cleaning systems using BMUs,
+              scaffolding, rope access, cradles, and platforms. If you care
+              about safety, quality, and dependable delivery, we’d love to hear
+              from you.
             </p>
           </div>
         </div>

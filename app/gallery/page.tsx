@@ -6,7 +6,7 @@ import { galleryItems } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Gallery",
   description:
-    "Browse Cradleman products, projects, and installations. Filter by category and preview images in a lightbox.",
+    "Explore facade access, cleaning systems, and installation snapshots. Filter by category and preview images in a lightbox.",
 };
 
 export default function GalleryPage() {
@@ -19,8 +19,8 @@ export default function GalleryPage() {
               Gallery
             </h1>
             <p className="mx-auto max-w-3xl text-lg text-gray-600 dark:text-gray-300">
-              A quick look at products, project planning, installations, and
-              commissioning—built for safe access and predictable outcomes.
+              A quick look at window cleaning, rope access, cradles, platforms,
+              and installations—built for safe access and reliable outcomes.
             </p>
           </div>
         </div>

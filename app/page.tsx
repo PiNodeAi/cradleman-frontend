@@ -34,13 +34,13 @@ export default function HomePage() {
             <h1 className="mb-6 text-4xl font-bold tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
               {companyTagline}
               <span className="block text-primary-600 dark:text-primary-400">
-                Facade Access & Suspended Platforms
+                Facade Access and Cleaning Systems
               </span>
             </h1>
             <p className="mb-8 max-w-2xl text-lg text-gray-600 dark:text-gray-300 md:text-xl">
-              {companyName} is a trusted name in designing, manufacturing, and
-              supplying complete building maintenance solutions—engineered for
-              safety, repeatability, and measurable quality.
+              {companyName} is a trusted name in designing, supplying,
+              manufacturing, installing, and maintaining complete building
+              maintenance solutions—all services under one roof.
             </p>
             <div className="flex flex-col gap-4 sm:flex-row">
               <Link href="/contact">
@@ -129,8 +129,8 @@ export default function HomePage() {
               Our Services
             </h2>
             <p className="mx-auto max-w-2xl text-gray-600 dark:text-gray-300">
-              All services under one roof—from access planning and installation
-              to cleaning support and preventive maintenance programs.
+              End-to-end services—from design and installation to maintenance,
+              cleaning support, and preventive programs.
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -174,13 +174,14 @@ export default function HomePage() {
               <p className="mb-6 text-gray-600 dark:text-gray-300">
                 Commercial buildings need reliable, repeatable exterior
                 maintenance. We combine engineering discipline with
-                site-ready execution—so your teams can plan safely, deliver
+                site-ready execution so your teams can plan safely, deliver
                 consistent quality, and reduce downtime.
               </p>
               <p className="mb-8 text-gray-600 dark:text-gray-300">
-                Best technology, quality products, and customer satisfaction
-                are built into our process—study → design → manufacture →
-                install → commission → train → maintain.
+                We follow CE Regulation and BS EN-1808 standards for suspended
+                access equipment with support from European technical
+                collaborators, prioritizing technology, quality, and customer
+                satisfaction.
               </p>
               <Link href="/about">
                 <Button>
@@ -255,8 +256,9 @@ export default function HomePage() {
               Industries We Support
             </h2>
             <p className="mx-auto max-w-2xl text-gray-600 dark:text-gray-300">
-              Commercial buildings, facilities teams, and contractors who need
-              dependable access for exterior maintenance.
+              Trusted by clients such as Larsen & Toubro, Sheth Developers, and
+              InterContinental Hotel The Lalit—along with facilities and
+              contractors across India.
             </p>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

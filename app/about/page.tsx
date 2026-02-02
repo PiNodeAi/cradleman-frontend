@@ -8,39 +8,39 @@ import { Linkedin } from "lucide-react";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Cradleman—our     mission,    vision, values, and the team behind our facade access and suspended platform solutions.",
+    "Learn about Cradleman—our mission, values, and the team behind our facade access and cleaning systems.",
 };
 
 const values = [
   {
+    title: "Best Technology",
+    description:
+      "We adopt proven engineering methods and reliable equipment for building maintenance access.",
+  },
+  {
+    title: "Quality Products",
+    description:
+      "We focus on durable systems and consistent performance from design to installation.",
+  },
+  {
+    title: "Customer Satisfaction",
+    description:
+      "We stay responsive across the project lifecycle and aim for long-term partnerships.",
+  },
+  {
     title: "Safety & Compliance",
     description:
-      "We prioritize safe access, documented procedures, and disciplined execution for work at height.",
-  },
-  {
-    title: "Engineering Excellence",
-    description:
-      "We design for real-world constraints—geometry, reach, obstructions, and maintainability over time.",
-  },
-  {
-    title: "Reliability",
-    description:
-      "From commissioning to preventive maintenance, we focus on uptime, repeatability, and predictable outcomes.",
-  },
-  {
-    title: "Customer Partnership",
-    description:
-      "We work closely with owners, facility teams, and contractors to meet scope, timelines, and quality standards.",
+      "Our systems follow CE Regulation and BS EN-1808 safety requirements for suspended access equipment.",
   },
 ];
 
 const milestones = [
-  { year: "2005+", event: "Founded with a focus on building maintenance access" },
-  { year: "2010+", event: "Expanded product range for commercial buildings" },
-  { year: "2015+", event: "Scaled installation and commissioning capabilities" },
-  { year: "2018+", event: "Strengthened preventive maintenance programs" },
-  { year: "2022+", event: "Broadened support across projects and portfolios" },
-  { year: "2026", event: "Ongoing: Quality, technology, customer satisfaction" },
+  { year: "10+ Years", event: "Experience in designing and installing BMU systems" },
+  { year: "Growth", event: "Established as a promising facade access manufacturer" },
+  { year: "Network", event: "Strong marketing and execution teams across India" },
+  { year: "Standards", event: "Aligned with CE Regulation and BS EN-1808" },
+  { year: "Support", event: "Lifecycle services: design → install → maintain" },
+  { year: "Today", event: "Committed to technology, quality, and safety" },
 ];
 
 export default function AboutPage() {
@@ -54,9 +54,9 @@ export default function AboutPage() {
               About {companyName}
             </h1>
             <p className="mx-auto max-w-2xl text-lg text-gray-600 dark:text-gray-300">
-              We design, manufacture, supply, install, and maintain facade
-              access systems and suspended platforms—helping commercial
-              buildings stay safe, clean, and maintainable.
+              We design, supply, manufacture, install, and maintain facade
+              access and cleaning systems—helping commercial buildings stay
+              safe, clean, and maintainable.
             </p>
           </div>
         </div>
@@ -72,20 +72,19 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-300">
                 <p>
-                  {companyName} was built to solve a practical challenge:
-                  enabling safe, repeatable access to building exteriors for
-                  cleaning, inspection, and restoration—especially on complex
-                  and high-rise facades.
+                  {companyName} is a trusted name in the design, manufacturing,
+                  and supply of complete building maintenance solutions—bringing
+                  all services under one roof.
                 </p>
                 <p>
-                  Over time, we expanded our offering to cover the complete
-                  lifecycle—from engineering and manufacturing to installation,
-                  commissioning, training, and preventive maintenance.
+                  Our sales, engineering, and design teams bring more than 10
+                  years of experience in proposing, designing, and installing
+                  building maintenance units for reputed clients.
                 </p>
                 <p>
-                  Today, we partner with owners, facility teams, and contractors
-                  to deliver quality products and dependable support with a
-                  strong focus on safety and documentation.
+                  Backed by European technical collaborators, we deliver facade
+                  access and cleaning systems that follow CE Regulation and BS
+                  EN-1808 safety requirements.
                 </p>
               </div>
             </div>
@@ -109,9 +108,9 @@ export default function AboutPage() {
               Our Mission
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              To provide complete building maintenance access solutions with the
-              right balance of safety, engineering, quality products, and
-              customer satisfaction.
+              To provide complete building maintenance solutions with the right
+              balance of safety, engineering, quality products, and customer
+              satisfaction.
             </p>
           </div>
         </div>

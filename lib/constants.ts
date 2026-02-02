@@ -14,10 +14,11 @@ import {
 } from "@/types";
 
 export const companyName = "Cradleman";
-export const companyTagline = "Complete Building Maintenance Solutions";
+export const companyTagline =
+  "Design, Supply, Manufacturing, Installation & Maintenance";
 export const siteUrl = "https://cradleman.com";
 export const companyDescription =
-  "Cradleman designs, manufactures, supplies, installs, and maintains facade access systems and suspended platform equipment for commercial and industrial buildings.";
+  "Cradleman designs, supplies, manufactures, installs, and maintains facade access and cleaning systems for commercial and industrial buildings.";
 
 export const contactInfo = {
   email: "info@cradleman.com",
@@ -38,14 +39,14 @@ export const services: Service[] = [
     title: "Facade Access System",
     slug: "facade-access-system",
     description:
-      "Design, manufacturing, installation, and maintenance of safe and reliable facade access systems for high-rise and complex building envelopes.",
+      "Design, supply, manufacturing, installation, and maintenance of permanent facade access systems for high-rise and complex building envelopes.",
     shortDescription:
-      "Permanent access solutions engineered for safe, efficient facade maintenance.",
+      "Permanent access solutions engineered for safe, reliable facade maintenance.",
     icon: "Building2",
     benefits: [
+      "Custom engineered systems for unique facade geometry",
       "Improved worker safety and controlled access at height",
-      "Reduced downtime with planned, repeatable maintenance access",
-      "Custom engineered solutions for unique building geometry",
+      "Repeatable maintenance access with defined procedures",
       "Compliance-focused design and documentation support",
       "Lifecycle support: inspection, servicing, and upgrades",
     ],
@@ -79,17 +80,17 @@ export const services: Service[] = [
   },
   {
     id: "2",
-    title: "Glass Facade Cleaning",
+    title: "Facade Cleaning Services",
     slug: "glass-facade-cleaning",
     description:
-      "Complete glass facade cleaning solutions supported by access equipment planning, safe methods, and dependable execution for commercial buildings.",
+      "Facade cleaning services with safe access planning and trained execution using cradles, platforms, rope access, scaffolding, and cherry pickers.",
     shortDescription:
-      "Safe and consistent cleaning programs for commercial building exteriors.",
+      "Safe, consistent cleaning programs for glass and mixed facades.",
     icon: "Sparkles",
     benefits: [
       "Improves appearance, tenant experience, and property value",
-      "Scheduled programs: daily/weekly/monthly or seasonal",
       "Methods tailored to glass, ACP, stone, and mixed facades",
+      "Trained teams for rope access, cradles, and platforms",
       "Safety-first execution with documented procedures",
       "Minimized disruption to occupants and operations",
     ],
@@ -167,12 +168,12 @@ export const services: Service[] = [
   },
   {
     id: "4",
-    title: "Temporary Suspended Platforms",
+    title: "Temporary & Manual Access Systems",
     slug: "temporary-suspended-platforms",
     description:
-      "Temporary access solutions for projects, retrofits, and special works—manual or powered systems engineered for your site conditions.",
+      "Temporary and manual access systems for projects, retrofits, and special works with safe configurations for site conditions.",
     shortDescription:
-      "Temporary suspended access solutions for projects and special works.",
+      "Temporary access solutions for time-bound facade work.",
     icon: "HardHat",
     benefits: [
       "Fast deployment for time-bound maintenance or retrofit work",
@@ -596,7 +597,7 @@ export const products: Product[] = [
     title: "Temporary & Manual Access Systems",
     slug: "temporary-manual-access",
     shortDescription:
-      "Temporary access solutions for projects, retrofits, and special works—manual or powered.",
+      "Temporary access solutions for projects, retrofits, and special works.",
     description:
       "Temporary & manual access systems are ideal for time-bound projects and special works. We assess site constraints, configure safe access methods, deploy equipment, and support operations through completion.",
     features: [
@@ -625,63 +626,67 @@ export const products: Product[] = [
 export const clients: Client[] = [
   {
     id: "c1",
-    name: "Commercial Building Owners",
-    industry: "Commercial Real Estate",
+    name: "Larsen & Toubro",
+    industry: "Construction",
     featured: true,
   },
-  { id: "c2", name: "Facility Management Teams", industry: "Facilities" },
-  { id: "c3", name: "General Contractors", industry: "Construction" },
-  { id: "c4", name: "Architects & Consultants", industry: "AEC" },
-  { id: "c5", name: "Industrial Campuses", industry: "Manufacturing" },
-  { id: "c6", name: "Hospitals & Institutions", industry: "Healthcare" },
+  { id: "c2", name: "Sheth Developers", industry: "Real Estate" },
+  {
+    id: "c3",
+    name: "InterContinental Hotel The Lalit",
+    industry: "Hospitality",
+  },
+  { id: "c4", name: "Commercial Building Owners", industry: "Real Estate" },
+  { id: "c5", name: "Facility Management Teams", industry: "Facilities" },
+  { id: "c6", name: "General Contractors", industry: "Construction" },
 ];
 
 export const galleryItems: GalleryItem[] = [
   {
     id: "g1",
-    title: "Permanent Access – Roof Rigging Layout",
+    title: "Window Cleaning",
     category: "Products",
     image: "/images/products/permanent-access.svg",
   },
   {
     id: "g2",
-    title: "Monorail Suspension – Elevation Coverage",
+    title: "Spider Cleaning Method",
     category: "Products",
     image: "/images/products/monorail-suspension.svg",
   },
   {
     id: "g3",
-    title: "Power Cradle – Maintenance Operations",
+    title: "Spider Cleaning Method",
     category: "Products",
     image: "/images/products/power-suspended-cradles.svg",
   },
   {
     id: "g4",
-    title: "Temporary Access – Project Deployment",
+    title: "Access with Cherry Picker",
     category: "Products",
     image: "/images/products/temporary-manual-access.svg",
   },
   {
     id: "g5",
-    title: "Commercial Tower – Facade Access Installation",
+    title: "Cleaning with 1.25 m Cradle",
     category: "Installations",
     image: "/images/gallery/installation-1.svg",
   },
   {
     id: "g6",
-    title: "Curtain Wall – Maintenance Route Planning",
+    title: "Cleaning with 2 m Cradle",
     category: "Projects",
     image: "/images/gallery/project-1.svg",
   },
   {
     id: "g7",
-    title: "Mixed Facade – Access Strategy",
+    title: "Harness and Safety Systems",
     category: "Projects",
     image: "/images/gallery/project-2.svg",
   },
   {
     id: "g8",
-    title: "High-Rise – Commissioning & Handover",
+    title: "Eye Bolt Suspension System",
     category: "Installations",
     image: "/images/gallery/installation-2.svg",
   },

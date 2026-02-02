@@ -8,7 +8,7 @@ import { contactInfo, companyName } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Contact Cradleman for facade access systems, suspended platforms, and building maintenance solutions. Request a quote or schedule a site assessment.",
+    "Contact Cradleman for facade access and cleaning systems. Request a quote or schedule a site assessment.",
 };
 
 export default function ContactPage() {
@@ -23,8 +23,8 @@ export default function ContactPage() {
             </h1>
             <p className="mx-auto max-w-2xl text-lg text-gray-600 dark:text-gray-300">
               Need safe access for facade maintenance, cleaning, inspection, or
-              restoration? Share your site details and we’ll respond with the
-              next steps.
+              restoration? Share your site details for design, supply,
+              installation, or maintenance support.
             </p>
           </div>
         </div>

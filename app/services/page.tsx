@@ -10,7 +10,7 @@ import { services } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Our Services",
   description:
-    "Facade access systems, glass facade cleaning support, facade restoration access planning, and temporary suspended platforms.",
+    "Design, supply, manufacturing, installation, and maintenance of facade access and cleaning systems.",
 };
 
 export default function ServicesPage() {
@@ -24,8 +24,8 @@ export default function ServicesPage() {
               Our Services
             </h1>
             <p className="mx-auto max-w-2xl text-lg text-gray-600 dark:text-gray-300">
-              End-to-end building maintenance services—planned for safety,
-              repeatability, and measurable quality.
+              All services under one roof—design, supply, manufacturing,
+              installation, and maintenance of building maintenance systems.
             </p>
           </div>
         </div>

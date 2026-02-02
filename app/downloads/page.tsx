@@ -10,7 +10,7 @@ import { downloads } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Downloads",
   description:
-    "Request Cradleman product catalogs, brochures, technical documents, and compliance certificates.",
+    "Request Cradleman catalogs, brochures, technical documents, and compliance certificates.",
 };
 
 export default function DownloadsPage() {
