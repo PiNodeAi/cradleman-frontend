@@ -1,3 +1,7 @@
+import type { StaticImageData } from "next/image";
+
+export type ImageSource = string | StaticImageData;
+
 export interface Service {
   id: string;
   title: string;
@@ -5,6 +9,7 @@ export interface Service {
   description: string;
   shortDescription: string;
   icon: string;
+  image?: ImageSource;
   benefits: string[];
   process: {
     step: number;
@@ -22,7 +27,7 @@ export interface CaseStudy {
   challenge: string;
   solution: string;
   results: string[];
-  image: string;
+  image: ImageSource;
   client: string;
   clientTestimonial?: {
     name: string;
@@ -40,7 +45,7 @@ export interface TeamMember {
   name: string;
   role: string;
   bio: string;
-  image: string;
+  image: ImageSource;
   social?: {
     linkedin?: string;
     twitter?: string;
@@ -56,10 +61,10 @@ export interface BlogPost {
   content: string;
   author: {
     name: string;
-    image: string;
+    image: ImageSource;
   };
   publishedAt: string;
-  image: string;
+  image: ImageSource;
   category: string;
   tags: string[];
   readingTime: number;
@@ -71,7 +76,7 @@ export interface Testimonial {
   name: string;
   role: string;
   company: string;
-  image: string;
+  image: ImageSource;
   quote: string;
   rating: number;
 }
@@ -107,7 +112,7 @@ export interface Product {
   features: string[];
   specifications: { label: string; value: string }[];
   applications: string[];
-  images: string[];
+  images: ImageSource[];
   brochureLabel?: string;
   brochureHref?: string;
   featured?: boolean;
@@ -118,7 +123,7 @@ export interface Client {
   name: string;
   industry?: string;
   location?: string;
-  logo?: string;
+  logo?: ImageSource;
   featured?: boolean;
 }
 
@@ -126,7 +131,7 @@ export interface GalleryItem {
   id: string;
   title: string;
   category: "Products" | "Projects" | "Installations";
-  image: string;
+  image: ImageSource;
 }
 
 export interface DownloadItem {

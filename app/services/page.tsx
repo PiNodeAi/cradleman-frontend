@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import Section from "@/components/layout/section";
 import { Card } from "@/components/ui/card";
@@ -37,6 +38,17 @@ export default function ServicesPage() {
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
               <Card key={service.id} hover className="flex flex-col">
+                {service.image && (
+                  <div className="relative mb-4 h-44 w-full overflow-hidden rounded-lg">
+                    <Image
+                      src={service.image}
+                      alt={service.title}
+                      fill
+                      className="object-cover"
+                      priority={service.featured}
+                    />
+                  </div>
+                )}
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary-100 text-primary-600 dark:bg-primary-900/50 dark:text-primary-400">
                   <ServiceIcon iconName={service.icon} className="h-6 w-6" />
                 </div>

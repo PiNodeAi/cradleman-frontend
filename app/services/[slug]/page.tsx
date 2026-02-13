@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { CheckCircle2, ArrowRight } from "lucide-react";
 import Section from "@/components/layout/section";
 import { Card } from "@/components/ui/card";
@@ -50,6 +51,17 @@ export default function ServicePage({ params }: ServicePageProps) {
       <Section className="bg-gradient-to-br from-primary-50 via-white to-secondary-50 dark:from-gray-900 dark:via-gray-950 dark:to-gray-900">
         <div className="container mx-auto px-4">
           <div className="py-12 md:py-16">
+            {service.image && (
+              <div className="relative mb-6 h-56 w-full overflow-hidden rounded-xl md:h-72">
+                <Image
+                  src={service.image}
+                  alt={service.title}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
+            )}
             <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-lg bg-primary-100 text-primary-600 dark:bg-primary-900/50 dark:text-primary-400">
               <ServiceIcon iconName={service.icon} className="h-8 w-8" />
             </div>

@@ -12,6 +12,20 @@ import {
   DownloadItem,
   JobOpening,
 } from "@/types";
+import Prod1 from "@/components/assets/Prod-1.webp";
+import Prod2 from "@/components/assets/Prod-2.webp";
+import Prod3 from "@/components/assets/Prod-3.webp";
+import Prod4 from "@/components/assets/Prod-4.webp";
+import Prod6 from "@/components/assets/prod-6.webp";
+import Prod7 from "@/components/assets/Prod-7.webp";
+import Prod9 from "@/components/assets/prod-9.webp";
+import PermanentAccessSystem from "@/components/assets/Permanent Access System.webp";
+import MonorailSuspensionSystems from "@/components/assets/Monorail Suspension Systems.webp";
+import MonorailSuspensionSystemsInsta from "@/components/assets/Monorail Suspension Systems Insta.webp";
+import PowerSuspendedCradles from "@/components/assets/Power Suspended Cradles.webp";
+import FacadeAccessSystem from "@/components/assets/Facade Access System .webp";
+import FacadeCleaningServices from "@/components/assets/Facade Cleaning Services.webp";
+import FacadeRestoration from "@/components/assets/Facade Restoration.webp";
 
 export const companyName = "Cradleman";
 export const companyTagline =
@@ -43,6 +57,7 @@ export const services: Service[] = [
     shortDescription:
       "Permanent access solutions engineered for safe, reliable facade maintenance.",
     icon: "Building2",
+    image: FacadeAccessSystem,
     benefits: [
       "Custom engineered systems for unique facade geometry",
       "Improved worker safety and controlled access at height",
@@ -87,6 +102,7 @@ export const services: Service[] = [
     shortDescription:
       "Safe, consistent cleaning programs for glass and mixed facades.",
     icon: "Sparkles",
+    image: FacadeCleaningServices,
     benefits: [
       "Improves appearance, tenant experience, and property value",
       "Methods tailored to glass, ACP, stone, and mixed facades",
@@ -131,6 +147,7 @@ export const services: Service[] = [
     shortDescription:
       "Inspection-led restoration planning with safe access at height.",
     icon: "Wrench",
+    image: FacadeRestoration,
     benefits: [
       "Improves building envelope integrity and longevity",
       "Reduces water ingress, corrosion, and material degradation",
@@ -175,6 +192,7 @@ export const services: Service[] = [
     shortDescription:
       "Temporary access solutions for time-bound facade work.",
     icon: "HardHat",
+    image: MonorailSuspensionSystemsInsta,
     benefits: [
       "Fast deployment for time-bound maintenance or retrofit work",
       "Flexible configurations for difficult-to-reach elevations",
@@ -217,7 +235,7 @@ export const teamMembers: TeamMember[] = [
     name: "Managing Director",
     role: "Leadership",
     bio: "Leads Cradleman’s mission to deliver safe, reliable, and compliant building maintenance access solutions across projects and portfolios.",
-    image: "https://via.placeholder.com/400x400.png?text=Cradleman+Team",
+    image: Prod1,
     social: {
       linkedin: "https://linkedin.com/company/cradleman",
     },
@@ -227,7 +245,7 @@ export const teamMembers: TeamMember[] = [
     name: "Engineering Head",
     role: "Design & Engineering",
     bio: "Responsible for engineering, design reviews, documentation, and ensuring project-specific solutions meet operational and safety needs.",
-    image: "https://via.placeholder.com/400x400.png?text=Engineering",
+    image: Prod2,
     social: {
       linkedin: "https://linkedin.com/company/cradleman",
     },
@@ -237,7 +255,7 @@ export const teamMembers: TeamMember[] = [
     name: "Projects Lead",
     role: "Installation & Commissioning",
     bio: "Coordinates site execution, commissioning, handover, and operator training with a focus on timeline and quality.",
-    image: "https://via.placeholder.com/400x400.png?text=Projects",
+    image: Prod3,
     social: {
       linkedin: "https://linkedin.com/company/cradleman",
     },
@@ -247,7 +265,7 @@ export const teamMembers: TeamMember[] = [
     name: "Service & Support",
     role: "Preventive Maintenance",
     bio: "Manages inspections, servicing, spares, and annual maintenance programs to keep access systems dependable year-round.",
-    image: "https://via.placeholder.com/400x400.png?text=Support",
+    image: Prod4,
     social: {
       linkedin: "https://linkedin.com/company/cradleman",
     },
@@ -272,7 +290,7 @@ export const caseStudies: CaseStudy[] = [
       "Reduced setup time for cleaning and inspection teams",
       "Better long-term maintainability for the building envelope",
     ],
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200",
+    image: Prod6,
     client: "Commercial Building Owner",
     technologies: ["Engineering", "Fabrication", "Installation", "Commissioning"],
     services: ["Facade Access System"],
@@ -295,7 +313,7 @@ export const caseStudies: CaseStudy[] = [
       "Reduced disruption to building operations",
       "Easier long-term scheduling for facility teams",
     ],
-    image: "https://images.unsplash.com/photo-1449247709967-d4461a6a6103?w=1200",
+    image: Prod7,
     client: "Facility Management Team",
     technologies: ["Retrofit Planning", "Installation", "QA"],
     services: ["Glass Facade Cleaning", "Facade Access System"],
@@ -318,7 +336,7 @@ export const caseStudies: CaseStudy[] = [
       "Clear daily checklists and operator guidance",
       "Smooth demobilization at project completion",
     ],
-    image: "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?w=1200",
+    image: Prod9,
     client: "Construction Contractor",
     technologies: ["Rigging Plan", "Deployment", "Training"],
     services: ["Temporary Suspended Platforms", "Facade Restoration"],
@@ -333,7 +351,7 @@ export const testimonials: Testimonial[] = [
     name: "Facility Manager",
     role: "Commercial Buildings",
     company: "Property Management Group",
-    image: "https://via.placeholder.com/200x200.png?text=Client",
+    image: Prod1,
     quote:
       "Cradleman helped us standardize safe access for facade work. Their team was responsive, and the handover documentation made operations smooth.",
     rating: 5,
@@ -343,7 +361,7 @@ export const testimonials: Testimonial[] = [
     name: "Project Director",
     role: "Construction",
     company: "General Contractor",
-    image: "https://via.placeholder.com/200x200.png?text=Client",
+    image: Prod2,
     quote:
       "The temporary suspended platform solution met our tight schedule. Safety briefings and on-site support were excellent.",
     rating: 5,
@@ -353,7 +371,7 @@ export const testimonials: Testimonial[] = [
     name: "Operations Head",
     role: "Industrial Facility",
     company: "Manufacturing Campus",
-    image: "https://via.placeholder.com/200x200.png?text=Client",
+    image: Prod3,
     quote:
       "We needed reliable access for inspection and cleaning across multiple elevations. Cradleman delivered a robust solution with clear SOPs.",
     rating: 5,
@@ -372,10 +390,10 @@ export const blogPosts: BlogPost[] = [
       "A consistent exterior maintenance program starts with clear scope, access planning, safety controls, and QA checklists. Standard operating procedures reduce variability and help teams deliver predictable outcomes across different elevations and facade materials.",
     author: {
       name: "Cradleman Team",
-      image: "https://via.placeholder.com/200x200.png?text=Cradleman",
+      image: Prod4,
     },
     publishedAt: "2025-10-15",
-    image: "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?w=1200",
+    image: Prod6,
     category: "Commercial Buildings",
     tags: ["Maintenance", "Quality", "Operations"],
     readingTime: 6,
@@ -391,10 +409,10 @@ export const blogPosts: BlogPost[] = [
       "Selecting a facade access system is about matching building geometry and operational needs. Consider reach, setbacks, parapets, anchorage, maintenance frequency, training, and preventive maintenance plans to keep the system reliable over time.",
     author: {
       name: "Engineering Desk",
-      image: "https://via.placeholder.com/200x200.png?text=Engineering",
+      image: Prod2,
     },
     publishedAt: "2025-09-20",
-    image: "https://images.unsplash.com/photo-1501183638710-841dd1904471?w=1200",
+    image: Prod7,
     category: "Facade Access",
     tags: ["Facade Access", "Safety", "Design"],
     readingTime: 7,
@@ -410,10 +428,10 @@ export const blogPosts: BlogPost[] = [
       "Preventive maintenance reduces unplanned downtime. Track inspection frequency, daily checks, load ratings, wire ropes, braking systems, electrical controls (if powered), and documentation so site teams can operate confidently.",
     author: {
       name: "Service & Support",
-      image: "https://via.placeholder.com/200x200.png?text=Support",
+      image: Prod3,
     },
     publishedAt: "2025-08-28",
-    image: "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1200",
+    image: Prod9,
     category: "Safety & Reliability",
     tags: ["Maintenance", "Safety", "Reliability"],
     readingTime: 6,
@@ -527,7 +545,7 @@ export const products: Product[] = [
       "Hospitals & institutional buildings",
       "Hotels & hospitality",
     ],
-    images: ["/images/products/permanent-access.svg"],
+    images: [PermanentAccessSystem],
     brochureLabel: "Request brochure",
     brochureHref: "/downloads",
     featured: true,
@@ -557,7 +575,7 @@ export const products: Product[] = [
       "Multi-elevation buildings",
       "Retrofit scenarios (after assessment)",
     ],
-    images: ["/images/products/monorail-suspension.svg"],
+    images: [MonorailSuspensionSystems],
     brochureLabel: "Request brochure",
     brochureHref: "/downloads",
     featured: true,
@@ -587,7 +605,7 @@ export const products: Product[] = [
       "Envelope inspections",
       "Restoration workflows",
     ],
-    images: ["/images/products/power-suspended-cradles.svg"],
+    images: [PowerSuspendedCradles],
     brochureLabel: "Request brochure",
     brochureHref: "/downloads",
     featured: true,
@@ -617,7 +635,7 @@ export const products: Product[] = [
       "Retrofit works",
       "Short-term maintenance windows",
     ],
-    images: ["/images/products/temporary-manual-access.svg"],
+    images: [Prod4],
     brochureLabel: "Request brochure",
     brochureHref: "/downloads",
   },
@@ -646,49 +664,49 @@ export const galleryItems: GalleryItem[] = [
     id: "g1",
     title: "Window Cleaning",
     category: "Products",
-    image: "/images/products/permanent-access.svg",
+    image: PermanentAccessSystem,
   },
   {
     id: "g2",
     title: "Spider Cleaning Method",
     category: "Products",
-    image: "/images/products/monorail-suspension.svg",
+    image: MonorailSuspensionSystems,
   },
   {
     id: "g3",
     title: "Spider Cleaning Method",
     category: "Products",
-    image: "/images/products/power-suspended-cradles.svg",
+    image: PowerSuspendedCradles,
   },
   {
     id: "g4",
     title: "Access with Cherry Picker",
     category: "Products",
-    image: "/images/products/temporary-manual-access.svg",
+    image: MonorailSuspensionSystemsInsta,
   },
   {
     id: "g5",
     title: "Cleaning with 1.25 m Cradle",
     category: "Installations",
-    image: "/images/gallery/installation-1.svg",
+    image: Prod6,
   },
   {
     id: "g6",
     title: "Cleaning with 2 m Cradle",
     category: "Projects",
-    image: "/images/gallery/project-1.svg",
+    image: Prod7,
   },
   {
     id: "g7",
     title: "Harness and Safety Systems",
     category: "Projects",
-    image: "/images/gallery/project-2.svg",
+    image: Prod9,
   },
   {
     id: "g8",
     title: "Eye Bolt Suspension System",
     category: "Installations",
-    image: "/images/gallery/installation-2.svg",
+    image: Prod6,
   },
 ];
 
