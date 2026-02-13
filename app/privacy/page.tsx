@@ -28,7 +28,7 @@ export default function PrivacyPage() {
           <div className="prose prose-lg mx-auto max-w-3xl dark:prose-invert">
             <h2>Introduction</h2>
             <p>
-              {companyName} ("we," "our," or "us") is committed to protecting
+              {companyName} (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is committed to protecting
               your privacy. This Privacy Policy explains how we collect, use,
               disclose, and safeguard your information when you visit our website
               and use our services.

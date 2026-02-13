@@ -22,13 +22,23 @@ export async function generateMetadata({
   const product = products.find((p) => p.slug === params.slug);
   if (!product) return { title: "Product Not Found" };
 
+  // Convert ImageSource to OpenGraph image format
+  const firstImage = product.images[0];
+  const imageUrl =
+    typeof firstImage === "string" ? firstImage : firstImage.src;
+
   return {
     title: product.title,
     description: product.shortDescription,
     openGraph: {
       title: product.title,
       description: product.shortDescription,
-      images: [product.images[0]],
+      images: [
+        {
+          url: imageUrl,
+          alt: product.title,
+        },
+      ],
     },
   };
 }

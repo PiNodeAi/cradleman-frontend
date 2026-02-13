@@ -16,6 +16,7 @@ import {
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: `${companyName} - ${companyTagline}`,
     template: `%s | ${companyName}`,

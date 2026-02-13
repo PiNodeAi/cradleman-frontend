@@ -28,7 +28,7 @@ export default function TermsPage() {
           <div className="prose prose-lg mx-auto max-w-3xl dark:prose-invert">
             <h2>Agreement to Terms</h2>
             <p>
-              By accessing and using {companyName}'s website and services, you
+              By accessing and using {companyName}&apos;s website and services, you
               agree to be bound by these Terms of Service and all applicable laws
               and regulations.
             </p>
@@ -36,7 +36,7 @@ export default function TermsPage() {
             <h2>Use License</h2>
             <p>
               Permission is granted to temporarily access the materials on{" "}
-              {companyName}'s website for personal, non-commercial transitory
+              {companyName}&apos;s website for personal, non-commercial transitory
               viewing only.
             </p>
 

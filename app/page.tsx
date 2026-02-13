@@ -333,7 +333,7 @@ export default function HomePage() {
                   </div>
                 </div>
                 <p className="mb-4 flex-grow italic text-gray-700 dark:text-gray-300">
-                  "{testimonial.quote}"
+                  &ldquo;{testimonial.quote}&rdquo;
                 </p>
                 <div className="flex text-yellow-400">
                   {Array.from({ length: testimonial.rating }).map((_, i) => (

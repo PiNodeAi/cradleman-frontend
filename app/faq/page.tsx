@@ -105,7 +105,7 @@ export default function FAQPage() {
               Still have questions?
             </h3>
             <p className="mb-6 text-gray-600 dark:text-gray-300">
-              Can't find the answer you're looking for? Please get in touch with
+              Can&apos;t find the answer you&apos;re looking for? Please get in touch with
               our friendly team.
             </p>
             <a

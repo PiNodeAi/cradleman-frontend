@@ -162,7 +162,7 @@ export default function CaseStudyPage({ params }: CaseStudyPageProps) {
           <div className="container mx-auto px-4">
             <Card className="bg-white dark:bg-gray-800">
               <p className="mb-4 text-lg italic text-gray-700 dark:text-gray-300">
-                "{study.clientTestimonial.quote}"
+                &ldquo;{study.clientTestimonial.quote}&rdquo;
               </p>
               <div>
                 <div className="font-semibold text-gray-900 dark:text-white">
@@ -185,7 +185,7 @@ export default function CaseStudyPage({ params }: CaseStudyPageProps) {
               Ready to Start Your Project?
             </h2>
             <p className="mb-8 mx-auto max-w-2xl text-lg opacity-90">
-              Let's discuss how we can help you achieve similar results.
+              Let&apos;s discuss how we can help you achieve similar results.
             </p>
             <Link href="/contact">
               <Button size="lg" variant="secondary">

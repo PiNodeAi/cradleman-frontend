@@ -202,7 +202,7 @@ export default function AboutPage() {
               Our Journey
             </h2>
             <p className="mx-auto max-w-2xl text-gray-600 dark:text-gray-300">
-              Key milestones in our company's history
+              Key milestones in our company&apos;s history
             </p>
           </div>
           <div className="relative">
