@@ -31,13 +31,22 @@ export async function generateMetadata({
     };
   }
 
+  // Convert ImageSource to OpenGraph image format
+  const imageUrl =
+    typeof post.image === "string" ? post.image : post.image.src;
+
   return {
     title: post.title,
     description: post.excerpt,
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      images: [post.image],
+      images: [
+        {
+          url: imageUrl,
+          alt: post.title,
+        },
+      ],
     },
   };
 }
